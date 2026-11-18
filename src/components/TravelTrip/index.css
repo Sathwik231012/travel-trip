@@ -1,0 +1,168 @@
+.travel-trip-app-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background-color: #f1f5f9;
+  padding: 30px 0;
+  font-family: 'Roboto';
+}
+
+.travel-trip-container {
+  display: flex;
+  width: 90%;
+  min-height: 90vh;
+  background-color: #ffffff;
+  border-radius: 12px;
+  overflow: hidden;
+}
+
+.steps-container {
+  width: 26%;
+  padding: 29px 43px;
+}
+
+.app-heading {
+  font-family: 'Caveat';
+  font-size: 22px;
+  color: #334155;
+  margin: 0;
+}
+
+.steps-list {
+  list-style-type: none;
+  padding-left: 0;
+  margin: 56px 0 0 0;
+}
+
+.step-item {
+  display: flex;
+  align-items: center;
+  margin-bottom: 43px;
+}
+
+.step-number {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-shrink: 0;
+  width: 29px;
+  height: 29px;
+  font-size: 12px;
+  font-weight: bold;
+  color: #334155;
+  border: 1px solid #cbd5e1;
+  border-radius: 50%;
+  margin: 0;
+}
+
+.active-step-number {
+  color: #ffffff;
+  background-color: #3b82f6;
+  border-color: #3b82f6;
+}
+
+.completed-step-image {
+  flex-shrink: 0;
+  width: 25px;
+  height: 25px;
+  margin: 2px;
+}
+
+.step-name {
+  font-size: 12px;
+  color: #475569;
+  margin: 0 0 0 15px;
+}
+
+.active-step-name {
+  color: #2563eb;
+}
+
+.step-details-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  flex-grow: 1;
+  background-color: #304766;
+  padding-top: 93px;
+}
+
+.confirmed-container {
+  justify-content: center;
+  padding-top: 0;
+}
+
+/* Common styles used by all the sections */
+
+.step-heading {
+  font-size: 22px;
+  color: #f1f5f9;
+  margin: 0;
+}
+
+.step-description {
+  font-size: 14px;
+  color: #f1f5f9;
+  margin: 18px 0 32px 0;
+}
+
+.step-card {
+  width: 403px;
+  background-color: #ffffff;
+  border-radius: 14px;
+  padding: 30px 43px;
+}
+
+.input-container {
+  display: flex;
+  flex-direction: column;
+  margin-top: 16px;
+  padding-bottom: 8px;
+}
+
+.input-label {
+  font-size: 12px;
+  color: #334155;
+  margin-bottom: 5px;
+}
+
+.input-element {
+  height: 34px;
+  font-family: 'Roboto';
+  font-size: 13px;
+  color: #1e293b;
+  background-color: #ffffff;
+  border: 1px solid #cbd5e1;
+  border-radius: 6px;
+  padding: 0 12px;
+}
+
+.error-message {
+  font-size: 12px;
+  color: #ff0b37;
+  margin: 6px 0 0 0;
+}
+
+.next-button {
+  font-family: 'Roboto';
+  font-size: 13px;
+  color: #ffffff;
+  background-color: #2563eb;
+  border: none;
+  border-radius: 5px;
+  padding: 7px 12px;
+  cursor: pointer;
+}
+
+.previous-button {
+  font-family: 'Roboto';
+  font-size: 13px;
+  color: #2563eb;
+  background-color: #dbeafe;
+  border: none;
+  border-radius: 5px;
+  padding: 7px 12px;
+  margin-right: 15px;
+  cursor: pointer;
+}

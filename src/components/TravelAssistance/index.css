@@ -1,0 +1,18 @@
+.checkbox-container {
+  display: flex;
+  align-items: center;
+  margin-top: 14px;
+  padding-bottom: 8px;
+}
+
+.checkbox-label {
+  font-size: 13px;
+  color: #334155;
+  margin-left: 2px;
+}
+
+.travel-assistance-buttons-container {
+  display: flex;
+  justify-content: center;
+  margin: 21px 0 14px 0;
+}
